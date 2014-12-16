@@ -2,10 +2,10 @@
 #include <vector>
 using namespace std;
  
-const int MAXN = 60;
+const int MAXN = 60; /* slightly more than the max. number of stars on the tree */
  
 bool adj[MAXN][MAXN], vis[MAXN];
-int n, e;
+int n, e; /* numbers of lights, stars resp. */
  
 class ChristmasTreeDecoration {
 public:
